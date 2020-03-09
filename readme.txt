@@ -72,3 +72,16 @@
     5，推送到GitHub远程仓库
 
         输入命令：git push origin masster
+
+
+        -----------------------------------
+
+使用webpack搭建项目的时候，npm初始化的时候，会生成一个node_modules库，里边的文件非常多，因为是公用的库，我们可以不必一起上传到git远程仓库中，从而提升提交代码的效率。
+那么如何推送的时候忽略调node_modules库呢？
+
+1，在你的项目目录里，新建一个.gitignore文件
+    touch .gitignore
+
+2,打开.gitignore文件,在里面输入node_modules，保存并退出
+
+这样就可以了，下次你再向GitHub推送的时候，就不会把node_modules一起推送了。
