@@ -66,7 +66,7 @@
 
    5，推送到GitHub远程仓库
 
-        输入命令：git push origin masster
+        输入命令：git push origin master
 
 
 ----------
