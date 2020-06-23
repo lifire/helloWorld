@@ -59,6 +59,8 @@
    3，将项目中所有文件添加到git仓库缓存区
 
         输入命令：git add .
+		[git add name.type] 添加指定文件/文件夹
+		[git rm name.type] 删除指定文件/文件夹
 
    4，推送到仓库并添加注释说明
 
